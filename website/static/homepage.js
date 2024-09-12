@@ -61,7 +61,7 @@ function createCard(issueName, issueDescription, issueDeadline, issueTags) {
 
 // Function to fetch and display votes
 function fetchVotes() {
-    const url = 'http://127.0.0.1:8000/vote/all';  // Ensure this endpoint exists
+    const url = '/vote/all';  // Ensure this endpoint exists
     console.log('Fetching votes from:', url);  // Debugging log
 
     fetch(url)
